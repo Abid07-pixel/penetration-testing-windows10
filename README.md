@@ -138,4 +138,3 @@ See the `/screenshots` folder for evidence of all attack phases:
 
 Full project report available in the `/report` folder.
 
-### Step 6 — Meterpreter Session Opened
