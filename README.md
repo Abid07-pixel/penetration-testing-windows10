@@ -122,12 +122,16 @@ Windows 10 was configured as a vulnerable target:
 ## Screenshots
 
 See the `/screenshots` folder for evidence of all attack phases:
-- Nmap scan output
-- Msfvenom payload generation
-- Metasploit listener
-- Meterpreter session opened
-- Post-exploitation commands output
 
+| File | What It Shows |
+|---|---|
+| 01_nmap_port_scan.png | Nmap -Pn -sS scan showing open ports |
+| 02_nmap_vulnerable.png | Nmap confirming VULNERABLE to CVE-2017-0143 |
+| 03_meterpreter_session.png | Meterpreter session 1 opened on Windows 10 |
+| 04_getuid.png | getuid showing DESKTOP-ACLE2LC\PC |
+| 05_sysinfo.png | sysinfo showing Windows 10 Build 10240 x64 |
+| 06_hashdump.png | NTLM password hashes extracted |
+| 07_ps.png | Full running process list on target |
 ---
 
 ## Project Report
